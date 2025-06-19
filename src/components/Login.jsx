@@ -10,7 +10,7 @@ const Login = () => {
             <div className='h-20 w-20 flex justify-center items-center text-9xl text-gray-300 rounded-full bg-gray-100 styleshadowinset z-20 mb-5 ' >
                 <IoPersonCircleOutline />
             </div>
-            <form action="" className='flex flex-col bg-gray-100 h-fit w-[80vw] md:w-[30vw] p-10 styleshadow rounded-3xl '>
+            <form action="" className='flex flex-col bg-gray-100 h-fit w-[80vw] md:w-[30vw] p-5 styleshadow rounded-3xl '>
                 <div className=' flex items-center gap-1 w-full styleshadow rounded-lg p-3 my-2 text-gray-500'>
                     <MdEmail /> <input type="text" placeholder='email' name='Email' className='outline-none text-gray-500 ' />
 
