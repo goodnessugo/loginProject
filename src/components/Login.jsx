@@ -11,11 +11,11 @@ const Login = () => {
                 <IoPersonCircleOutline />
             </div>
             <form action="" className='flex flex-col bg-gray-100 h-fit w-[80vw] md:w-[30vw] p-10 styleshadow rounded-3xl '>
-                <div className=' flex items-center gap-2 w-full styleshadow rounded-lg p-3 my-2 text-gray-500'>
+                <div className=' flex items-center gap-1 w-full styleshadow rounded-lg p-3 my-2 text-gray-500'>
                     <MdEmail /> <input type="text" placeholder='email' name='Email' className='outline-none text-gray-500 ' />
 
                 </div>
-                <div className=' flex items-center gap-2 w-full styleshadowinset rounded-lg p-3 my-2 text-gray-500'>
+                <div className=' flex items-center gap-1 w-full styleshadowinset rounded-lg p-3 my-2 text-gray-500'>
                     <GiPadlockOpen /> <input type="password" placeholder='Password' className='outline-none text-gray-500 ' />
 
                 </div>
