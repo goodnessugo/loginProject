@@ -39,7 +39,11 @@ const Login = () => {
                 <button className=' bg-gray-300 hover:bg-gray-600 hover:text-gray-200 ease-in-out cursor-pointer p-4 rounded-md font-bold text-gray-800'>Login</button>
 
                 <div className='flex flex-col justify-center items-center pt-5'>
-                    <h1 className='text-xs'>Or sign up with</h1>
+                    <div className='flex flex-col justify-center items-center gap-2'>
+                         <h1 className='text-xs'>Don't have an account? <span className='font-bold cursor-pointer'>REGISTER </span></h1>
+                    <h1 className='text-xs'>Or Login with</h1>
+                    </div>
+                   
                     
                     {/* social icons */}
                     <div className="socialMedia flex justify-center items-center gap-5 cursor-pointer">
