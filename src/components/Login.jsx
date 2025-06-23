@@ -3,9 +3,10 @@ import { MdEmail } from "react-icons/md";
 import { GiPadlockOpen } from "react-icons/gi";
 import { IoPersonCircleOutline } from "react-icons/io5";
 import { BsShieldLock } from "react-icons/bs";
-import  GOOGLE from '../images/google.webp'
-import  FACEBOOK from '../images/Facebook_Logo_2023.png'
-import  APPLE from '../images/apple.png'
+import GOOGLE from '../images/google.webp'
+import FACEBOOK from '../images/Facebook_Logo_2023.png'
+import APPLE from '../images/apple.png'
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (
@@ -40,16 +41,22 @@ const Login = () => {
 
                 <div className='flex flex-col justify-center items-center pt-5'>
                     <div className='flex flex-col justify-center items-center gap-2'>
-                         <h1 className='text-xs'>Don't have an account? <span className='font-bold cursor-pointer'>REGISTER </span></h1>
-                    <h1 className='text-xs'>Or Login with</h1>
+                        <h1 className='text-xs'>Don't have an account?
+                            <Link to='/register' >
+                                <span className='font-bold cursor-pointer'> REGISTER
+                                </span>
+                            </Link>
+
+                        </h1>
+                        <h1 className='text-xs'>Or Login with</h1>
                     </div>
-                   
-                    
+
+
                     {/* social icons */}
                     <div className="socialMedia flex justify-center items-center gap-5 cursor-pointer">
-                        <img src={GOOGLE} alt="" className='h-17'/>
-                        <img src={FACEBOOK} alt="" className='h-12'/>
-                        <img src={APPLE} alt="" className='h-13'/>
+                        <img src={GOOGLE} alt="" className='h-17' />
+                        <img src={FACEBOOK} alt="" className='h-12' />
+                        <img src={APPLE} alt="" className='h-13' />
                     </div>
                 </div>
 
