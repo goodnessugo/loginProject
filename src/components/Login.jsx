@@ -11,7 +11,7 @@ const Login = () => {
     return (
         <div className='bg-gray-100 h-[100vh] flex items-center flex-col text-gray-500 p-5 '>
 
-            <div className='h-15 w-15 flex justify-center items-center text-5xl text-gray-300 rounded-full bg-gray-100 styleshadow z-20 mb-2' >
+            <div className='h-15 w-15 flex mt-5 justify-center items-center text-5xl text-gray-300 rounded-full bg-gray-100 styleshadow z-20 mb-2' >
                 <BsShieldLock />
             </div>
 
